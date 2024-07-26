@@ -1,0 +1,19 @@
+{
+    "name": "solanafellowship2024",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+      "wallet": "bun run wallet.ts",
+      "send": "bun run sendSol.ts $arg0 $arg1",
+      "airdrop": "bun run airdrop.ts"
+    },
+    "devDependencies": {
+      "@types/bun": "latest"
+    },
+    "peerDependencies": {
+      "typescript": "^5.0.0"
+    },
+    "dependencies": {
+      "@solana/web3.js": "^1.95.1"
+    }
+  }
